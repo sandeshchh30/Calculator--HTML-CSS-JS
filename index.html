@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3>Calculate Me!</h3>
+        <input type="text" class="screen">
+
+        <div class="numb">
+            <div class="row">
+                <div class="lc btn-clear" id="AC">C</div>
+                <div class="c btn" id="percentage" data-num="%">%</div>
+                <div class="c btn" id="divide" data-num="/">/</div>
+                <div class="lc  " id="back">B</div>
+            </div>
+
+            <div class="row">
+                <div class="c btn" id="seven" data-num="7">7</div>
+                <div class="c btn" id="eight" data-num="8">8</div>
+                <div class="c btn" id="nine" data-num="9">9</div>
+                <div class="lc btn" id="multiply" data-num="*">x</div>
+            </div>
+
+            <div class="row">
+                <div class="c btn" id="four" data-num="4">4</div>
+                <div class="c btn" id="five" data-num="5">5</div>
+                <div class="c btn" id="six" data-num="6">6</div>
+                <div class="lc btn" id="minus" data-num="-">-</div>
+            </div>
+
+            <div class="row">
+                <div class="c btn" id="one" data-num="1">1</div>
+                <div class="c btn" id="two" data-num="2">2</div>
+                <div class="c btn" id="three" data-num="3">3</div>
+                <div class="lc btn" id="plus" data-num="+">+</div>
+            </div>
+
+            <div class="row">
+                <div class="long btn" id="zero" data-num="0">0</div>
+                <div class="c btn" id="dot" data-num=".">.</div>
+                <div class="lc btn-equal" id="equal">=</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
